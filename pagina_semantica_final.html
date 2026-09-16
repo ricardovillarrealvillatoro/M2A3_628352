@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Sitio - Mi Blog Personal</title>
+<style>
+body { font-family: system-ui, sans-serif; max-width: 900px; margin: 2rem auto; line-height: 1.5; }
+header, nav, main, aside, article, footer, section { padding: 12px; border: 1px solid #ddd; margin-bottom: 12px; }
+h1, h2 { margin: 0 0 8px 0; font-size: inherit; }
+.site-title { font-size: 1.5rem; font-weight: bold; }
+.post-title { font-size: 1.25rem; font-weight: bold; }
+nav a { margin-right: 8px; }
+.label { font-weight: bold; }
+blockquote { font-style: italic; margin: 8px 0; padding-left: 12px; border-left: 3px solid #ccc; }
+.date { color: #666; }
+address { font-style: normal; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 class="site-title">Mi Blog Personal</h1>
+  <nav aria-label="Menu">
+    <a href="#">Inicio</a>
+    <a href="#">Artículos</a>
+    <a href="#">Contacto</a>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h2 class="post-title">Novedades de HTML5</h2>
+    <p class="date">Publicado el <time datetime="2024-12-20">20/12/2024</time></p>
+    <p>HTML5 trae nuevas etiquetas <em>muy interesantes</em> para mejorar la web.</p>
+    
+    <blockquote cite="https://www.example.com">
+      "a uniquely portable magic" - <cite>Stephen King</cite>
+    </blockquote>
+    
+    <p>La <span class="label">URL</span>: <a href="https://www.example.com">https://www.example.com</a></p>
+    <p>Visita a la <abbr title="World Health Organization">WHO</abbr> para más información.</p>
+  </article>
+</main>
+
+<aside>
+  <section>
+    <h2>Acerca de</h2>
+    <p>Desarrollador web y escritor ocasional.</p>
+  </section>
+  
+  <section>
+    <h2>Contacto</h2>
+    <address>
+      <p><span class="label">Email:</span> <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a></p>
+    </address>
+  </section>
+</aside>
+
+<footer>
+  <p>© 2025 Mi Sitio</p>
+  <p>Hecho con paciencia y café.</p>
+</footer>
+
+</body>
+</html>
